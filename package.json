@@ -9,7 +9,8 @@
   "dependencies": {
     "react": "16.6.3",
     "react-native": "0.58.0",
-    "react-redux": "^6.0.0",
+    "react-native-notification-library": "file:../NotificationLibrary",
+    "react-redux": "^6.0.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   },

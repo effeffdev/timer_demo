@@ -1,3 +1,5 @@
 rootProject.name = 'timer_demo'
+include ':react-native-notification-library'
+project(':react-native-notification-library').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-notification-library/android')
 
 include ':app'

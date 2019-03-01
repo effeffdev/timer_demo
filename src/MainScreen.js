@@ -17,7 +17,6 @@ class MainScreen extends Component {
     }
 
     toOutput(number) {
-        console.log(number);
         if (number > 9) {
             return number.toString();
         } else {
